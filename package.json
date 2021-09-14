@@ -1,0 +1,33 @@
+{
+  "name": "fast-ssg",
+  "version": "1.0.0",
+  "description": "Fast static site generator",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "fast-ssg": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpark43/fast-ssg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpark43/fast-ssg/issues"
+  },
+  "homepage": "https://github.com/tpark43/fast-ssg#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
