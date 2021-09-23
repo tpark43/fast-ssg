@@ -2,14 +2,14 @@
   "name": "fast-ssg",
   "version": "1.0.0",
   "description": "Fast static site generator",
-  "main": "src/index.js",
+  "main": "index.js",
   "type": "module",
   "bin": {
-    "fast-ssg": "src/index.js"
+    "fast-ssg": "index.js"
   },
   "scripts": {
-    "start": "node src",
-    "dev": "nodemon src",
+    "start": "node .",
+    "dev": "nodemon .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
