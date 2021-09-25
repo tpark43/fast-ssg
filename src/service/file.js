@@ -16,7 +16,7 @@ const footer = `</body>\n</html>`
 
 const defaultDir = "public";
 
-export const processFileToHTML = (filename, dirname = "") => {
+const processFileToHTML = (filename, dirname = "") => {
     if(!filename) {
         throw new Error('filename is required!');
     }

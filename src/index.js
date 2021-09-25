@@ -2,8 +2,8 @@
 ":" //# comment; exec /usr/bin/env node --input-type=module - "$@" < "$0"
 
 import chalk from 'chalk';
-import { processConvertingToHTML } from './service/file.js';
-import { getParams } from './service/util.js';
+import { processConvertingToHTML } from '@fast-ssg/service';
+import { getParams } from '@fast-ssg/service';
 
 const { argv } = getParams();
 

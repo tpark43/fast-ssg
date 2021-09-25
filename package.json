@@ -25,7 +25,8 @@
   "homepage": "https://github.com/tpark43/fast-ssg#readme",
   "dependencies": {
     "chalk": "^4.1.2",
-    "yargs": "^17.1.1"
+    "yargs": "^17.1.1",
+    "@fast-ssg/service": "file:./src/service"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
